@@ -1,0 +1,29 @@
+.header{
+    height: 90px;
+    background: #000;
+    display: flex;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block >a {
+    font-size: 20px;
+    color: #fff;
+}
+.item{
+    margin-right: 30px;
+}
+.item:last-child{
+    margin-right: 0;
+}
+.item > a{
+    color: #fff;
+    font-size: 18px;
+}
+.menu > ul{
+    display: flex;
+}

@@ -1,0 +1,37 @@
+.main {
+    padding: 40px 0;
+}
+.block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #ccc;
+    transition: all 0.3s;
+}
+.item:hover{
+    box-shadow: 0px 0px 5px 0px #ccc;
+    
+}
+.item>h2{
+    margin-bottom: 10px;
+}
+.item > p{
+    margin-bottom: 10px;
+}
+.item p:last-child{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.item button {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius:5px;
+}
